@@ -9,7 +9,7 @@
 			pkg: grunt.file.readJSON('package.json'),
 			uglify: {
 				options: {
-					banner: '/*! Saltgreen bundle <%= grunt.template.today("yyyy-mm-dd") %> */ '
+					banner: '/*! Swindon Property Services bundle <%= grunt.template.today("yyyy-mm-dd") %> */ '
 				},
 				build: {
 					src: 'static-assets/js/app.js',
