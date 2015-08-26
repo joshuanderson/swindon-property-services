@@ -1,0 +1,237 @@
+
+<svg width="36" height="2064" viewBox="0 0 36 2064" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+        <!-- menu -->
+		<linearGradient id="fill-menu" gradientUnits="userSpaceOnUse">
+  			<stop offset="0" stop-color="#828c70" />
+		</linearGradient>
+
+        <linearGradient id="fill-menu-shadow" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#152b12" />
+        </linearGradient>
+
+		<linearGradient id="fill-menu-hover" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fff" />
+        </linearGradient>
+
+        <linearGradient id="fill-menu-hover-shadow" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#000" />
+        </linearGradient>
+
+        <!-- button-default -->
+        <linearGradient id="fill-button-default" gradientUnits="userSpaceOnUse">
+  			<stop offset="0" stop-color="#fff" />
+		</linearGradient>
+
+		<linearGradient id="fill-button-default-shadow" gradientUnits="userSpaceOnUse">
+  			<stop offset="0" stop-color="#000" />
+		</linearGradient>
+
+        <path id="arrow-left" d="M19.303,25.186L13.2,19.082c-0.781-0.781-0.781-2.047,0-2.828l6.103-6.103c0.781-0.781,2.047-0.781,2.828,0c0.781,0.78,0.781,2.048,0,2.828l-4.688,4.689l4.688,4.688c0.781,0.78,0.781,2.049,0,2.828c-0.391,0.392-0.902,0.586-1.414,0.586S19.693,25.574,19.303,25.186z" />
+
+        <path id="arrow-right" d="M14.614,25.77c-0.512,0-1.023-0.195-1.414-0.586c-0.781-0.78-0.781-2.048,0-2.828l4.688-4.688L13.2,12.979c-0.781-0.78-0.781-2.048,0-2.828c0.781-0.781,2.047-0.781,2.828,0l6.103,6.103c0.781,0.781,0.781,2.047,0,2.828l-6.103,6.103C15.638,25.574,15.126,25.77,14.614,25.77z" />
+
+        <g id="desktop">
+            <path d="M15.91,25.172c-0.559,0-1.213,0.414-1.454,0.918l-0.603,1.266c-0.24,0.506,0.02,0.918,0.579,0.918h6.967c0.56,0,0.847-0.426,0.64-0.945l-0.482-1.211c-0.207-0.52-0.834-0.945-1.393-0.945H15.91z" />
+            <path d="M25.632,24.262H10.369c-1.333,0-2.417-1.083-2.417-2.416V10.142c0-1.332,1.084-2.416,2.417-2.416h15.263c1.332,0,2.416,1.084,2.416,2.416v11.704C28.048,23.178,26.964,24.262,25.632,24.262zM11.048,21.167h13.904V10.822H11.048V21167z" />
+        </g>
+
+        <g id="exit">
+            <path d="M21.207,22h-3v3h-6V11h6v4h3V9.303c0-0.719-0.436-1.303-1.15-1.303h-9.438C9.898,8,9.207,8.584,9.207,9.303v17.393c0,0.721,0.691,1.305,1.412,1.305h9.438c0.719,0,1.15-0.584,1.15-1.305V22z" />
+            <polygon points="26.793,18 22.207,13.4 22.207,17 24.355,17 16.207,17 16.207,20 24.355,20 22.207,20 22.207,22.6" />
+        </g>
+
+		<path id="home" d="M24.804,9.834c0-0.338-0.271-0.613-0.607-0.613H22.19c-0.336,0-0.607,0.275-0.607,0.613v1.205l3.221,3.218V9.834zM29.503,18.967L18.927,8.382c-0.512-0.509-1.336-0.509-1.85,0L6.503,18.967c-0.516,0.505-0.516,1.328,0,1.841c0.256,0.253,0.584,0.378,0.916,0.378c0.338,0,0.668-0.125,0.922-0.378l9.662-9.663l9.662,9.663c0.508,0.503,1.336,0.503,1.838,0C30.011,20.295,30.013,19.472,29.503,18.967zM9.317,19.826v6.994c0,0.65,0.531,1.18,1.182,1.18h5.492v-6.402c0-0.268,0.219-0.486,0.486-0.486h3.049c0.27,0,0.49,0.219,0.49,0.486V28h5.584c0.652,0,1.178-0.529,1.178-1.18v-6.901l-8.775-8.774L9.317,19.826z" />
+
+        <g id="menu">
+            <line stroke-width="3" stroke-linecap="round" x1="8.5" y1="11.5" x2="27.5" y2="11.5" />
+            <line stroke-width="3" stroke-linecap="round" x1="8.5" y1="18.5" x2="27.5" y2="18.5" />
+            <line stroke-width="3" stroke-linecap="round" x1="8.5" y1="25.5" x2="27.5" y2="25.5" />
+        </g>
+
+        <path id="padlock" d="M23.579,16.844L23.579,16.844v-3.694c0-2.84-2.74-5.149-5.58-5.149c-2.836,0-5.578,2.31-5.578,5.149v3.694l0,0c-1.021,0-1.859,0.837-1.859,1.859v7.438c0,1.022,0.838,1.859,1.859,1.859h11.158c1.021,0,1.859-0.837,1.859-1.859v-7.438C25.438,17.681,24.601,16.844,23.579,16.844zM15.21,13.149c0-1.443,1.348-2.56,2.793-2.56s2.785,1.116,2.785,2.56v3.694H15.21V13.149z" />
+
+		<path id="question" d="M15.699,22.217c0.025-1.803,0.795-3.104,2.672-4.906c1.32-1.326,2.01-2.149,2.037-3.289c0-1.354-0.846-2.415-2.357-2.415c-1.557,0-2.406,1.062-2.564,2.468c-0.025,0.213-0.053,0.424-0.053,0.637h-3.809C11.6,14.473,11.6,14.312,11.6,14.153C11.756,10.387,14.721,8,18.238,8c3.834,0,6.162,2.812,6.162,5.623c0,2.361-1.588,3.82-3.039,5.172c-1.773,1.697-1.957,2.521-2.012,3.422H15.699zM19.35,28h-3.65v-3.926h3.65V28z" />
+
+        <g id="sound-off">
+            <polygon points="9.025,20.824 9.025,15.025 12.727,15.025 18.076,9.275 18.076,26.725 12.727,20.824" />
+            <path d="M26.989,21.312c0.223,0,0.445-0.084,0.616-0.255c0.341-0.341,0.341-0.893,0-1.234l-2.001-2l2.001-2.001c0.341-0.341,0.341-0.893,0-1.234c-0.341-0.341-0.894-0.341-1.233,0l-2.002,2.001l-1.999-2.001c-0.341-0.341-0.894-0.341-1.233,0c-0.342,0.342-0.342,0.894,0,1.234l2,2.001l-2.002,2c-0.34,0.342-0.34,0.894,0,1.234c0.171,0.171,0.395,0.255,0.617,0.255c0.224,0,0.447-0.084,0.617-0.255l2-2.001" />
+        </g>
+
+		<path id="sound-on" d="M20.15,11.207c0.232,0,0.434,0.066,0.6,0.2c1.768,1.833,2.65,4.033,2.65,6.6c0,2.5-0.816,4.617-2.449,6.351c-0.168,0.166-0.352,0.25-0.551,0.25s-0.383-0.084-0.551-0.25c-0.365-0.4-0.365-0.816,0-1.25c1.334-1.4,2-3.101,2-5.101c0-2.1-0.717-3.866-2.148-5.3c-0.168-0.166-0.25-0.367-0.25-0.6c0-0.233,0.066-0.434,0.199-0.6C19.783,11.34,19.951,11.24,20.15,11.207zM22.301,8.807c0.365-0.399,0.732-0.416,1.1-0.049c2.4,2.566,3.6,5.649,3.6,9.249c0,3.667-1.217,6.767-3.65,9.301c-0.133,0.133-0.316,0.199-0.549,0.199c-0.234,0-0.418-0.083-0.551-0.25c-0.166-0.166-0.232-0.366-0.199-0.6c0-0.267,0.082-0.467,0.25-0.6c2.066-2.233,3.1-4.917,3.1-8.051c0-3.133-1.018-5.8-3.051-7.999c-0.166-0.134-0.25-0.334-0.25-0.601C22.066,9.174,22.133,8.975,22.301,8.807zM9,20.707v-5.8h3.701l5.35-5.75v17.45l-5.35-5.9H9z" />
+
+        <polygon id="star" points="17.999,8.5 21.087,14.756 27.988,15.758 22.993,20.625 24.173,27.5 17.999,24.254 11.825,27.5 13.005,20.625 8.011,15.758 14.913,14.756" />
+
+        <path id="trop" d="M18,7C11.925,7,7,11.925,7,18s4.925,11,11,11s11-4.925,11-11S24.075,7,18,7zM20.857,16.572l-1.43-1.429v7.425L18,23.996l-1.428-1.429v-7.425l-1.429,1.429L13,14.429L14.428,13h7.144L23,14.429L20.857,16.572z" />
+
+		<path id="user" d="M26.104,22.875c-0.098-0.659-0.816-1.506-1.369-1.758c-0.555-0.252-3.914-1.402-4.209-2.066c-0.291-0.661,0.01-2.085,0.01-2.085c0.334-0.511,0.609-1.11,0.828-1.753c0.016,0.004,0.029,0.012,0.047,0.012c0.504,0,0.93-0.711,1.039-1.32c0.119-0.65,0.1-1.246-0.4-1.246c-0.033,0-0.068,0.008-0.102,0.014C22.796,10.471,21.21,8,17.997,8s-4.799,2.471-3.947,4.672c-0.033-0.006-0.07-0.014-0.102-0.014c-0.502,0-0.52,0.596-0.402,1.246c0.107,0.609,0.537,1.32,1.043,1.32c0.016,0,0.029-0.008,0.045-0.012c0.217,0.643,0.492,1.242,0.828,1.753c0,0,0.299,1.424,0.004,2.085c-0.291,0.664-3.648,1.814-4.203,2.066c-0.553,0.252-1.275,1.099-1.373,1.758l-0.494,3.346c0,0.981,3.393,1.779,8.604,1.779c5.213,0,8.605-0.798,8.605-1.779c0-0.011-0.01-0.02-0.01-0.029L26.104,22.875z" />
+
+        <g id="users">
+            <path d="M16.063,22.679c0.094-0.042,0.287-0.117,0.537-0.214c0.564-0.218,2.283-0.882,2.52-1.188c0.094-0.215,0.041-0.834-0.031-1.23c-0.209-0.33-0.393-0.707-0.551-1.123c-0.504-0.182-0.861-0.785-0.961-1.359c-0.066-0.369-0.123-0.902,0.162-1.244c0.035-0.039,0.072-0.075,0.111-0.106c-0.17-0.796-0.014-1.61,0.453-2.292c0.465-0.68,1.197-1.141,2.072-1.356c-0.064-0.134-0.162-0.232-0.34-0.232c-0.031,0-0.062,0.008-0.096,0.013C20.731,10.298,19.255,8,16.265,8c-2.986,0-4.463,2.298-3.67,4.345c-0.031-0.005-0.066-0.013-0.094-0.013c-0.467,0-0.484,0.556-0.375,1.161c0.1,0.565,0.498,1.227,0.969,1.227c0.016,0,0.029-0.007,0.043-0.011c0.201,0.599,0.459,1.155,0.77,1.631c0,0,0.279,1.324,0.004,1.938c-0.271,0.619-3.393,1.689-3.908,1.924s-1.188,1.021-1.279,1.635l-0.459,3.111c0,0.791,2.367,1.453,6.146,1.616l0.316-2.161C14.829,23.698,15.513,22.929,16.063,22.679z" />
+            <path d="M27.358,24.54c-0.053-0.353-0.502-0.879-0.801-1.014c-0.086-0.039-0.264-0.107-0.49-0.195c-1.018-0.393-1.707-0.688-2.176-0.939c-0.496-0.266-0.742-0.483-0.844-0.711c-0.15-0.342-0.154-0.82-0.121-1.219c0.027-0.324,0.078-0.596,0.098-0.689l0.066-0.158c0.229-0.351,0.428-0.775,0.594-1.262l0.141-0.412l0.422,0.113c-0.004-0.03,0.205-0.313,0.268-0.653c0.035-0.2,0.041-0.328,0.037-0.405l-0.695,0.116l0.289-0.756c0.252-0.651,0.174-1.348-0.213-1.91c-0.479-0.696-1.363-1.097-2.432-1.097c-0.4,0-0.764,0.074-1.102,0.182c-0.561,0.178-1.031,0.48-1.328,0.916c-0.328,0.478-0.418,1.051-0.287,1.611c0.023,0.1,0.039,0.199,0.076,0.297l0.297,0.766l-0.629-0.107l-0.074-0.014c-0.004,0.078,0.002,0.205,0.037,0.402c0.004,0.016,0.01,0.027,0.014,0.042c0.061,0.288,0.221,0.524,0.316,0.589l0.34-0.115l0.162,0.438c0.072,0.217,0.154,0.416,0.242,0.607c0.107,0.236,0.223,0.457,0.35,0.65l0.066,0.16c0.045,0.21,0.25,1.289-0.025,1.909c-0.195,0.442-0.93,0.844-3.02,1.651c-0.227,0.087-0.402,0.154-0.488,0.193c-0.293,0.133-0.752,0.668-0.801,1.012l-0.305,2.057l-0.068,0.462C15.526,27.37,17.351,28,21.503,28c4.16,0,5.984-0.631,6.232-0.944l0,0L27.358,24.54z" />
+        </g>
+
+        <path id="user2" d="M23.914,22.941c-2.742-1-3.617-1.84-3.617-3.644c0-1.084,0.838-0.729,1.205-2.713c0.152-0.822,0.891-0.012,1.033-1.891c0-0.746-0.404-0.934-0.404-0.934s0.205-1.107,0.285-1.959c0.1-1.061-0.614-3.803-4.416-3.803s-4.516,2.743-4.416,3.806c0.082,0.852,0.285,1.959,0.285,1.959s-0.402,0.188-0.402,0.934c0.143,1.879,0.879,1.068,1.033,1.891c0.365,1.98,1.203,1.629,1.203,2.713c0,1.805-0.875,2.645-3.615,3.645c-2.748,1-4.533,2.021-4.533,2.719c0,0.695,0,2.338,0,2.338H18h10.445c0,0,0-1.643,0-2.338C28.445,24.964,26.66,23.941,23.914,22.941z" />
+
+        <path id="user-plus" d="M20.641,22.941c-2.768-0.998-3.652-1.842-3.652-3.646c0-1.082,0.844-0.729,1.215-2.711c0.154-0.822,0.899-0.014,1.044-1.891c0-0.748-0.408-0.934-0.408-0.934s0.207-1.107,0.287-1.959c0.102-1.061-0.619-3.803-4.461-3.803c-3.842,0-4.561,2.743-4.46,3.806c0.08,0.852,0.287,1.959,0.287,1.959s-0.409,0.186-0.409,0.934c0.145,1.877,0.891,1.068,1.043,1.891c0.373,1.98,1.217,1.629,1.217,2.711c0,1.805-0.885,2.646-3.652,3.646c-0.334,0.119-1.127,0.307-1.803,0.598V28h17.777c0,0,0-1.643,0-2.338C24.666,24.963,23.418,23.941,20.641,22.941zM25.777,16.888v-3.332h-2.223v3.332h-3.334v2.221h3.334v3.334h2.223v-3.334h3.334v-2.221H25.777z" />
+	</defs>
+
+    <!-- Positions:
+    1   54,102,150,
+    4   198,246,294,
+    7   342,390,438,
+    10  486,534,582,
+    13  630,678,726,
+    16  774,822,870,
+    19  918,966,1014,
+    22  1062,1110,1158,
+    25  1206,1254,1302,
+    28  1350,1398,1446,
+    31  1494,1542,1590,
+    34  1638,1686,1734,
+    37  1782,1830,1878,
+    40  1926,1974,2022,
+    43  2070,2118,2166,
+    46  2214,2262,2310,
+    -->
+
+    <!-- menu-account -->
+    <use xlink:href="#user" fill="url(#fill-menu-shadow)" y="53" />
+    <use xlink:href="#user" fill="url(#fill-menu)" y="54" />
+
+    <use xlink:href="#user" fill="url(#fill-menu-hover-shadow)" y="101" />
+    <use xlink:href="#user" fill="url(#fill-menu-hover)" y="102" />
+
+    <use xlink:href="#user" fill="url(#fill-menu-hover-shadow)" y="149" />
+    <use xlink:href="#user" fill="url(#fill-menu-hover)" y="150" />
+
+    <!-- menu-help -->
+    <use xlink:href="#question" fill="url(#fill-menu-shadow)" y="197" />
+    <use xlink:href="#question" fill="url(#fill-menu)" y="198" />
+
+    <use xlink:href="#question" fill="url(#fill-menu-hover-shadow)" y="245" />
+    <use xlink:href="#question" fill="url(#fill-menu-hover)" y="246" />
+
+    <use xlink:href="#question" fill="url(#fill-menu-hover-shadow)" y="293" />
+    <use xlink:href="#question" fill="url(#fill-menu-hover)" y="294" />
+
+    <!-- menu-home -->
+    <use xlink:href="#home" fill="url(#fill-menu-shadow)" y="341" />
+    <use xlink:href="#home" fill="url(#fill-menu)" y="342" />
+
+    <use xlink:href="#home" fill="url(#fill-menu-hover-shadow)" y="389" />
+    <use xlink:href="#home" fill="url(#fill-menu-hover)" y="390" />
+
+    <use xlink:href="#home" fill="url(#fill-menu-hover-shadow)" y="437" />
+    <use xlink:href="#home" fill="url(#fill-menu-hover)" y="438" />
+
+    <!-- menu-logout -->
+    <use xlink:href="#exit" fill="url(#fill-menu-shadow)" y="485" />
+    <use xlink:href="#exit" fill="url(#fill-menu)" y="486" />
+
+    <use xlink:href="#exit" fill="url(#fill-menu-hover-shadow)" y="533" />
+    <use xlink:href="#exit" fill="url(#fill-menu-hover)" y="534" />
+
+    <use xlink:href="#exit" fill="url(#fill-menu-hover-shadow)" y="581" />
+    <use xlink:href="#exit" fill="url(#fill-menu-hover)" y="582" />
+
+    <!-- menu-next -->
+    <use xlink:href="#arrow-right" fill="url(#fill-menu-shadow)" y="629" />
+    <use xlink:href="#arrow-right" fill="url(#fill-menu)" y="630" />
+
+    <use xlink:href="#arrow-right" fill="url(#fill-menu-hover-shadow)" y="677" />
+    <use xlink:href="#arrow-right" fill="url(#fill-menu-hover)" y="678" />
+
+    <use xlink:href="#arrow-right" fill="url(#fill-menu-hover-shadow)" y="725" />
+    <use xlink:href="#arrow-right" fill="url(#fill-menu-hover)" y="726" />
+
+    <!-- menu-refer-friend -->
+    <use xlink:href="#user-plus" fill="url(#fill-menu-shadow)" y="773" />
+    <use xlink:href="#user-plus" fill="url(#fill-menu)" y="774" />
+
+    <use xlink:href="#user-plus" fill="url(#fill-menu-hover-shadow)" y="821" />
+    <use xlink:href="#user-plus" fill="url(#fill-menu-hover)" y="822" />
+
+    <use xlink:href="#user-plus" fill="url(#fill-menu-hover-shadow)" y="869" />
+    <use xlink:href="#user-plus" fill="url(#fill-menu-hover)" y="870" />
+
+    <!-- menu-shop -->
+    <use xlink:href="#trop" fill="url(#fill-menu-shadow)" y="917" />
+    <use xlink:href="#trop" fill="url(#fill-menu)" y="918" />
+
+    <use xlink:href="#trop" fill="url(#fill-menu-hover-shadow)" y="965" />
+    <use xlink:href="#trop" fill="url(#fill-menu-hover)" y="966" />
+
+    <use xlink:href="#trop" fill="url(#fill-menu-hover-shadow)" y="1013" />
+    <use xlink:href="#trop" fill="url(#fill-menu-hover)" y="1014" />
+
+    <!-- menu-sound-off -->
+    <use xlink:href="#sound-off" fill="url(#fill-menu-shadow)" y="1061" />
+    <use xlink:href="#sound-off" fill="url(#fill-menu)" y="1062" />
+
+    <use xlink:href="#sound-off" fill="url(#fill-menu-hover-shadow)" y="1109" />
+    <use xlink:href="#sound-off" fill="url(#fill-menu-hover)" y="1110" />
+
+    <use xlink:href="#sound-off" fill="url(#fill-menu-hover-shadow)" y="1157" />
+    <use xlink:href="#sound-off" fill="url(#fill-menu-hover)" y="1158" />
+
+    <!-- menu-sound-on -->
+    <use xlink:href="#sound-on" fill="url(#fill-menu-shadow)" y="1205" />
+    <use xlink:href="#sound-on" fill="url(#fill-menu)" y="1206" />
+
+    <use xlink:href="#sound-on" fill="url(#fill-menu-hover-shadow)" y="1253" />
+    <use xlink:href="#sound-on" fill="url(#fill-menu-hover)" y="1254" />
+
+    <use xlink:href="#sound-on" fill="url(#fill-menu-hover-shadow)" y="1301" />
+    <use xlink:href="#sound-on" fill="url(#fill-menu-hover)" y="1302" />
+
+    <!-- button-default-back -->
+    <use xlink:href="#arrow-left" fill="url(#fill-button-default-shadow)" y="1349" />
+    <use xlink:href="#arrow-left" fill="url(#fill-button-default)" y="1350" />
+
+    <use xlink:href="#arrow-left" fill="url(#fill-button-default-shadow)" y="1397" />
+    <use xlink:href="#arrow-left" fill="url(#fill-button-default)" y="1398" />
+
+    <use xlink:href="#arrow-left" fill="url(#fill-button-default-shadow)" y="1445" />
+    <use xlink:href="#arrow-left" fill="url(#fill-button-default)" y="1446" />
+
+    <!-- button-default-help -->
+    <use xlink:href="#question" fill="url(#fill-button-default-shadow)" y="1493" />
+    <use xlink:href="#question" fill="url(#fill-button-default)" y="1494" />
+
+    <use xlink:href="#question" fill="url(#fill-button-default-shadow)" y="1541" />
+    <use xlink:href="#question" fill="url(#fill-button-default)" y="1542" />
+
+    <use xlink:href="#question" fill="url(#fill-button-default-shadow)" y="1589" />
+    <use xlink:href="#question" fill="url(#fill-button-default)" y="1590" />
+
+    <!-- button-default-menu -->
+    <use xlink:href="#menu" stroke="url(#fill-button-default-shadow)" y="1637" />
+    <use xlink:href="#menu" stroke="url(#fill-button-default)" y="1638" />
+
+    <use xlink:href="#menu" stroke="url(#fill-button-default-shadow)" y="1685" />
+    <use xlink:href="#menu" stroke="url(#fill-button-default)" y="1686" />
+
+    <use xlink:href="#menu" stroke="url(#fill-button-default-shadow)" y="1733" />
+    <use xlink:href="#menu" stroke="url(#fill-button-default)" y="1734" />
+
+    <!-- button-default-sound-off -->
+    <use xlink:href="#sound-off" fill="url(#fill-button-default-shadow)" y="1781" />
+    <use xlink:href="#sound-off" fill="url(#fill-button-default)" y="1782" />
+
+    <use xlink:href="#sound-off" fill="url(#fill-button-default-shadow)" y="1829" />
+    <use xlink:href="#sound-off" fill="url(#fill-button-default)" y="1830" />
+
+    <use xlink:href="#sound-off" fill="url(#fill-button-default-shadow)" y="1877" />
+    <use xlink:href="#sound-off" fill="url(#fill-button-default)" y="1878" />
+
+    <!-- button-default-sound-on -->
+    <use xlink:href="#sound-on" fill="url(#fill-button-default-shadow)" y="1925" />
+    <use xlink:href="#sound-on" fill="url(#fill-button-default)" y="1926" />
+
+    <use xlink:href="#sound-on" fill="url(#fill-button-default-shadow)" y="1973" />
+    <use xlink:href="#sound-on" fill="url(#fill-button-default)" y="1974" />
+
+    <use xlink:href="#sound-on" fill="url(#fill-button-default-shadow)" y="2021" />
+    <use xlink:href="#sound-on" fill="url(#fill-button-default)" y="2022" />
+</svg>

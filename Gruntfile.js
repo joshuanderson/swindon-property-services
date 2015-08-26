@@ -41,8 +41,6 @@
 			autoprefixer: {
 				dist: {
 					files: {
-						'static-assets/css/animation.css': 'static-assets/css/animation.css',
-						'static-assets/css/responsive.css': 'static-assets/css/responsive.css',
 						'static-assets/css/style.css': 'static-assets/css/style.css'
 					}
 				}
